@@ -197,7 +197,7 @@ def convert_move(moveSquare, landingSquare):
 def main():
 
 	#Set robot to True if playing against a physical chess robot
-	PlayerVsAI(startState = None, robot = True)
+	PlayerVsAI(startState = None, robot = False)
 	
 main()
 
